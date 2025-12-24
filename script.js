@@ -43,8 +43,8 @@ const paintings = [
   title: '',
   price: 2500,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765302605/480719857_967369852166287_6020250565155524097_n.jpg_eaffqu.jpg',
-  desc: '"" location: USA.',
-  sold: true,
+  desc: '"" location: Georgia.',
+  sold: false,
   variations: [],
 },
 
@@ -3324,6 +3324,7 @@ sizeRange.addEventListener("touchstart", e => {
 sizeRange.addEventListener("touchmove", e => {
   e.preventDefault();
 }, { passive: false });
+
 
 
 
