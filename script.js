@@ -15,6 +15,20 @@
 
 
 const paintings = [
+
+  {
+    id: 272 ,
+    title: 'Van Gogh',
+    price: 4500,
+    img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1766254181/b564961d-860e-48a4-88e4-01bc9ca294f4_peykq6.jpg',
+    desc: '"Orchids". Acrylic. Cardboard. 36X12 In. ( 100X30 Cm). location: USA.',
+    sold: false,
+     variations: ['https://res.cloudinary.com/dri8nh3tr/image/upload/v1766254181/b564961d-860e-48a4-88e4-01bc9ca294f4_peykq6.jpg', 
+                 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1766254159/896e7113-5f30-4f25-9319-2a9260544487_sqoicy.jpg',
+                  'https://res.cloudinary.com/dri8nh3tr/image/upload/v1766254012/67085a86-d835-49eb-860d-92368c4999ce_iexgvh.jpg',
+                 ],
+   },
+  
 {
   id: 271,
   title: 'Orchids',
@@ -38,10 +52,10 @@ const paintings = [
 {
   id: 269,
   title: '',
-  price: 2000,
+  price: 2500,
   img: 'https://res.cloudinary.com/dri8nh3tr/image/upload/v1765302605/480719857_967369852166287_6020250565155524097_n.jpg_eaffqu.jpg',
-  desc: '"" location: Georgia.',
-  sold: false,
+  desc: '"" location: USA.',
+  sold: true,
   variations: [],
 },
 
@@ -2417,6 +2431,8 @@ const paintings = [
   } 
 ];
 
+// ====================================================================================================
+
 
 const clothPrints = [
   { id: 1011,
@@ -3319,4 +3335,5 @@ sizeRange.addEventListener("touchstart", e => {
 sizeRange.addEventListener("touchmove", e => {
   e.preventDefault();
 }, { passive: false });
+
 
