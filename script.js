@@ -1,6 +1,19 @@
 // =======================================================================================
 
 
+//   {
+//     id: ,
+//     title: '',
+//     price: ,
+//     img: '',
+//     desc: '',
+//     sold: ,
+//     variations: [],
+//   },
+
+
+
+
 const paintings = [
 {
   id: 271,
@@ -3306,3 +3319,4 @@ sizeRange.addEventListener("touchstart", e => {
 sizeRange.addEventListener("touchmove", e => {
   e.preventDefault();
 }, { passive: false });
+
